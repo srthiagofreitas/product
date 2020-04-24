@@ -316,7 +316,6 @@ body{
 }
 
 .priceBtn {
-  position: relative;
   width: 25px;
   height: 25px;
   border-radius: 50px;
@@ -482,6 +481,10 @@ body{
 @media (max-width: 400px){
   .buy i{
       display: none;
+  }
+
+  .priceBtn {
+    display: none;
   }
 
   .container{
